@@ -1,0 +1,25 @@
+{
+  "name": "wtd_uppgift_todo",
+  "version": "1.0.0",
+  "description": "to-do list assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/19ozman/todo.git"
+  },
+  "author": "oskar lowitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/19ozman/todo/issues"
+  },
+  "homepage": "https://github.com/19ozman/todo#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1"
+  }
+}
