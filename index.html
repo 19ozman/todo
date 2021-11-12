@@ -4,7 +4,26 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>WWWD?</title>
+		<link rel="stylesheet" href="/scss/main.scss" />
+		<script src="/js/main.js"></script>
 	</head>
-	<body></body>
+	<body>
+		<h1>WTD?</h1>
+		<form id="form" autocomplete="off">
+			<input type="text" class="input" id="input" placeholder="WTD?" />
+			<ul class="todos" id="todos"></ul>
+			<small class="sortera">Sort</small>
+			<select class="filter-todo">
+				<option value="all">All</option>
+				<option value="completed">Completed</option>
+				<option value="uncompleted">Uncompleted</option>
+			</select>
+		</form>
+		<small>
+			Hit "ENTER" to add your "to do"<br />
+			Left-click to toggle complete on/off<br />
+			Right-click to remove
+		</small>
+	</body>
 </html>
