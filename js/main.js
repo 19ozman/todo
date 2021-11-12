@@ -34,7 +34,6 @@ window.onload = function start() {
 
 			todoEl.addEventListener("click", () => {
 				todoEl.classList.toggle("completed");
-				document.getElementById("waka").play();
 				updateLS();
 			});
 
@@ -45,7 +44,6 @@ window.onload = function start() {
 			});
 
 			todosUl.appendChild(todoEl);
-			// todosUl.insertBefore(todoEl, todosUl.childNodes[0]);
 			input.value = "";
 			updateLS();
 		}

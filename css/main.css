@@ -43,7 +43,6 @@ form {
 }
 
 .input:focus {
-	/* outline-color: #edc2d8ff; */
 	outline-style: none;
 }
 
